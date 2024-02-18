@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: fixed;
+}
+body{
+    background: fixed;
+    background: radial-gradient(circle, rgb(255, 1, 65) 0%, rgba(191,31,37,1) 79%, rgba(253,76,45,1) 100%);
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+
+    width: 99%;
+    height: 100%;
+    border-radius: 10px;
+}
+main h1, h2{
+    text-align: center;
+    font-size: 3rem;
+}
+main h3{
+    padding-bottom: 8px;
+    font-size: 3rem;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+p{
+    margin-bottom: 5vmin;
+    font-size: 3vmin;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+ul, ol{
+    padding-top: 10px;
+    margin-bottom: 5vmin;
+    font-size: 3vmin;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+    list-style: none;
+}
+ol{
+    list-style: decimal; 
+
+}
+ol > li{
+    font-size: 5vmin;
+}
+.caixa{
+    background-color:#77141C;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.habilidade li{
+   text-align: start;
+}
+a:hover{
+    color: blueviolet;
+}
+a{
+    font-size: 5vmin;
+    text-decoration: none;
+    color: white;
+    padding-left: 8px; 
+    
+}
+.redes img{
+    width: 25px;
+}
+.redes li{
+    
+    float: inline-start;
+}
+.redes{
+    width: 150px;
+    padding-bottom: 2rem;
+    height: 10px;
+    margin: auto;
+
+}
+
+.Apresentacao h3{
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+.img-perfil img{
+    margin: auto;
+    width: 13rem;
+}
+.img-perfil{
+
+    margin: auto;
+    text-align: center;
+}
+.img-perfil p{
+    text-align: center;
+    margin: 0;
+}
+@media(max-width:1000px){
+    main h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        margin-bottom: 5vmin;
+        font-size: 3.5vmin;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+    }
+    .redes{
+        width: 130px;
+        padding-left: 3px;
+
+    }
+    .redes li{
+        margin-left: 5px;
+
+    }
+    .Apresentacao h3{
+        margin-top: 1rem;
+    }
+    .habilidade ul{
+        font-size: 3.4vmin;
+        padding-left: 10%;
+        padding-right: 10%;
+     }
+     .caixa{
+        width: 99%;
+     }
+}
+footer{
+    margin: auto;
+    width: 90%;
+    color: white;
+
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
